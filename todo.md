@@ -25,3 +25,7 @@
 - [x] Create a separate deployment repository with no secrets, databases, or private backup material
 - [x] Push the validated site privately and obtain visual approval before public publishing
 - [x] Enable GitHub Pages, verify HTTPS, and provide exact custom-domain DNS instructions
+- [x] Diagnose why Safari still shows the old Manus maintenance page after the GitHub Pages DNS cutover
+- [x] Verify authoritative and public recursive DNS for the apex and www hostnames
+- [x] Verify GitHub custom-domain DNS check, certificate provisioning, HTTPS enforcement, and redirects
+- [ ] Confirm both custom-domain variants serve the OPD continuity site over trusted HTTPS

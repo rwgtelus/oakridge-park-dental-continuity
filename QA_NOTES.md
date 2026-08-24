@@ -35,3 +35,11 @@ The Node test suite contains eight passing checks covering the five required pag
 ## GitHub Pages publication
 
 The deployment-only repository was made public after explicit user approval. GitHub Pages was then configured in the authenticated repository settings to deploy from the `main` branch at `/ (root)`. GitHub confirmed that the Pages site entered the build process and that HTTPS is required on the default `rwgtelus.github.io` domain.
+
+## Post-cutover Safari diagnosis
+
+Shortly after the DNS change, Safari still displayed the former Manus maintenance response. A fresh audit confirmed that both the apex and `www` hostnames resolve exclusively to the four GitHub Pages addresses, while `www` has the correct `rwgtelus.github.io` CNAME. GitHub reports the custom domain as `oakridgeparkdental.ca`, the repository CNAME file is present, and the Pages build is successful with no build error.
+
+Direct HTTP verification returned the OPD continuity homepage from `Server: GitHub.com`, including the expected page title and “Committed to Beautiful Smiles” marker. The `www` hostname correctly redirects to the apex. This proves that the maintenance page shown in Safari came from a stale browser/network DNS or page cache rather than the saved DNS configuration.
+
+At the time of diagnosis, GitHub was still presenting its generic `*.github.io` certificate and `https_enforced` remained false. The custom-domain certificate therefore remained in provisioning; no DNS correction was required.
