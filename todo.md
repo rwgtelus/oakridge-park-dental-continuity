@@ -24,4 +24,4 @@
 - [x] Confirm the optimized deployment contains no Manus/CDN runtime references, secret files, or private backup material
 - [x] Create a separate deployment repository with no secrets, databases, or private backup material
 - [x] Push the validated site privately and obtain visual approval before public publishing
-- [ ] Enable GitHub Pages, verify HTTPS, and provide exact custom-domain DNS instructions
+- [x] Enable GitHub Pages, verify HTTPS, and provide exact custom-domain DNS instructions
