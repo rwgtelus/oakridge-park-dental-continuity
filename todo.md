@@ -22,6 +22,6 @@
 - [x] Verify all internal links, `tel:`, `mailto:`, and directions links
 - [x] Run Lighthouse and resolve all accessibility, best-practices, SEO, contrast, and image-ratio findings
 - [x] Confirm the optimized deployment contains no Manus/CDN runtime references, secret files, or private backup material
-- [ ] Create a separate deployment repository with no secrets, databases, or private backup material
+- [x] Create a separate deployment repository with no secrets, databases, or private backup material
 - [ ] Push the validated site privately and obtain visual approval before public publishing
 - [ ] Enable GitHub Pages, verify HTTPS, and provide exact custom-domain DNS instructions
