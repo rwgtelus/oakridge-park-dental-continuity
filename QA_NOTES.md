@@ -31,3 +31,7 @@ The Contact page headline wraps naturally, the service notice remains readable, 
 The final homepage Lighthouse audit scored **100 Accessibility**, **100 Best Practices**, **100 SEO**, and **80 Performance** under simulated throttling from the local development server. Performance improved from 73 after converting the three largest homepage images to optimized WebP files, preloading the hero image, and setting explicit high fetch priority. The remaining performance limitations are primarily development-server cache headers and externally loaded brand fonts; GitHub Pages supplies production caching.
 
 The Node test suite contains eight passing checks covering the five required pages, one-H1 structure, verified contact details, working phone/email/directions paths, absent Manus runtime dependencies, absent forms/reviews/ratings, complete local image references, metadata and Dentist JSON-LD, exact sourced doctor names, and GitHub Pages support files.
+
+## GitHub Pages publication
+
+The deployment-only repository was made public after explicit user approval. GitHub Pages was then configured in the authenticated repository settings to deploy from the `main` branch at `/ (root)`. GitHub confirmed that the Pages site entered the build process and that HTTPS is required on the default `rwgtelus.github.io` domain.
