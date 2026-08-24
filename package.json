@@ -1,0 +1,10 @@
+{
+  "name": "oakridge-park-dental-continuity",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node tools/serve.mjs",
+    "test": "node --test tests/site.test.mjs"
+  }
+}

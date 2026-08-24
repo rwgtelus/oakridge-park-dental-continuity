@@ -1,0 +1,27 @@
+# Oakridge Park Dental Continuity Site TODO
+
+- [x] Create a five-page static information architecture: Home, About, Treatments, New Patients, and Contact
+- [x] Reproduce the original OPD design system: forest green, sage, teal, cream, Playfair Display, and DM Sans
+- [x] Reproduce the original transparent/sticky header, contact bar, mobile navigation, hero treatment, trust strip, section rhythm, and footer
+- [x] Bundle the approved OPD logos, hero, team, doctor, clinic, and treatment-supporting images locally
+- [x] Build a high-fidelity homepage using the approved original hero copy and family-dental positioning
+- [x] Build the About page using only sourced practice history, four approved doctors, languages, team image, and clinic context
+- [x] Build the Treatments page using the five approved categories and concise existing service descriptions
+- [x] Build the New Patients page with approved first-visit guidance, what-to-bring list, payment model, location, and hours
+- [x] Build the Contact page with phone, email, fax, address, hours, and an external Google Maps directions link
+- [x] Use only reliable phone and email conversion paths; do not include a Manus-dependent or non-functioning form
+- [x] Add an unobtrusive service-continuity notice focused on patient access
+- [x] Add responsive mobile call and email actions without obstructing content
+- [x] Add per-page titles, descriptions, canonical-ready metadata, Open Graph tags, and LocalBusiness JSON-LD
+- [x] Re-audit doctor names and spellings against the original About page source
+- [x] Verify Dentist JSON-LD is present on all five public pages
+- [x] Add `robots.txt`, `sitemap.xml`, `404.html`, `.nojekyll`, and GitHub Pages-compatible relative routes
+- [x] Add automated tests for key content, page structure, links, asset references, and prohibited claims/reviews
+- [x] Verify all five pages at desktop and mobile viewports
+- [x] Verify keyboard navigation, visible focus states, contrast, reduced motion, and semantic landmarks
+- [x] Verify all internal links, `tel:`, `mailto:`, and directions links
+- [x] Run Lighthouse and resolve all accessibility, best-practices, SEO, contrast, and image-ratio findings
+- [x] Confirm the optimized deployment contains no Manus/CDN runtime references, secret files, or private backup material
+- [ ] Create a separate deployment repository with no secrets, databases, or private backup material
+- [ ] Push the validated site privately and obtain visual approval before public publishing
+- [ ] Enable GitHub Pages, verify HTTPS, and provide exact custom-domain DNS instructions
